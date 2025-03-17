@@ -51,5 +51,5 @@ Sistem operasi (OS) adalah perangkat lunak inti yang mengelola sumber daya peran
 
 ---
 
-**Ringkasan**:  
+**Kesimpulan**:  
 OS bertindak sebagai perantara antara pengguna/aplikasi dengan perangkat keras, memastikan komputer berjalan efisien, aman, dan mudah digunakan.
