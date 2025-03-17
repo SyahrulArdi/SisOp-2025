@@ -1,3 +1,5 @@
+# Nama : Syahrul Ardi Prasetiyo
+
 # Fungsi Sistem Operasi (OS)
 
 Sistem operasi (OS) adalah perangkat lunak inti yang mengelola sumber daya perangkat keras dan perangkat lunak komputer, serta menyediakan layanan untuk aplikasi dan pengguna. Berikut fungsi utamanya:
