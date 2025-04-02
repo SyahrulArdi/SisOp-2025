@@ -91,7 +91,7 @@ Sistem operasi melindungi data dan sumber daya dari akses tidak sah dengan:
 ---
 
 ### **Kesimpulan**
-Appendix A dari *Operating System Concepts* memberikan wawasan tentang:
+*Operating System Concepts* memberikan wawasan tentang:
 - Arsitektur sistem operasi
 - Manajemen proses dan memori
 - Pengelolaan I/O dan sistem file
