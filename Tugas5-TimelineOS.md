@@ -1,6 +1,9 @@
+## Nama : Syahrul Ardi Prasetiyo
+## NRP : 3124500035
+
 # Timeline Perkembangan Sistem Operasi (1956-2023)
 
-| Tahun | Penjelasan |
+| Tahun | Peristiwa |
 |-------|-----------|
 | 1956  | IBM mengembangkan **GM-NAA I/O**, salah satu sistem operasi pertama untuk komputer mainframe. |
 | 1960  | Muncul sistem operasi batch seperti **IBM OS/360**, yang memungkinkan eksekusi program secara otomatis. |
