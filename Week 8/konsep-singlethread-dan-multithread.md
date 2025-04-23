@@ -70,6 +70,6 @@ Java, C#, C++ (dengan *library threading*).
 - Untuk tugas berat seperti komputasi paralel atau *handling* banyak koneksi jaringan.
 - Saat aplikasi perlu tetap responsif (misalnya, game atau aplikasi GUI).
 
-##Ilustrasi Single Thread vs Multithread
+## Ilustrasi Single Thread vs Multithread
 ![image](https://github.com/user-attachments/assets/ed02ab55-3117-41ad-9845-b3390ef5f6a4)
 
