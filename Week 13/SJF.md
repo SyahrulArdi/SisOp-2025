@@ -10,6 +10,8 @@
 **Dr Ferry Astika Saputra ST, M.Sc**
 
 ## 1. **SJF Scheduling Algorithm Without Arrival Time.c**
+![image](https://github.com/user-attachments/assets/c98d5db5-8d05-4721-875d-9796c384dc1d)
+
 
 
 
@@ -139,6 +141,8 @@ Burst Time untuk P4: 3
 ```	
 
 SJF Scheduling Algorithm With Arrival Time.c
+![image](https://github.com/user-attachments/assets/1a330a90-c61c-4762-8e7e-dbb55e887e41)
+
 # Analisis Kode Penjadwalan SJF Non-Preemptive
 
 ---
