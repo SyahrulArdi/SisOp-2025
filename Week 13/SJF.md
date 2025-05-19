@@ -1,4 +1,4 @@
-# Analisis FCFS Scheduling Algorithm (Dengan dan Tanpa Arrival Time)
+# Analisis SJF Scheduling Algorithm (Dengan dan Tanpa Arrival Time)
 
 ## Anggota
 
