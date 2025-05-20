@@ -280,3 +280,89 @@ int main() {
 | Memastikan proses dengan `AT` lebih kecil diprioritaskan setelah sorting.      | Contoh output memiliki nilai WT tidak valid (misal: 55 untuk P3).            |
 
 ---
+
+![WhatsApp Image 2025-05-20 at 11 27 30_82da654b](https://github.com/user-attachments/assets/42d60471-71e7-45dc-a386-e1bbb6ffe876)
+
+Berikut ini adalah penjelasan, analisa kelebihan dan kekurangan, serta Gantt chart dari program SRTF Scheduling (Shortest Remaining Time First) berbasis preemptive. Format jawaban dalam bentuk .md file (Markdown).
+
+---
+
+
+# Analisa Program SRTF (Shortest Remaining Time First) Scheduling Algorithm
+
+## 📌 Deskripsi Program
+
+Program ini mengimplementasikan algoritma penjadwalan proses **SRTF (Shortest Remaining Time First)** secara preemptive. Algoritma ini memilih proses yang memiliki waktu eksekusi (burst time) tersisa paling kecil dan melakukan preempt saat proses lain yang lebih pendek tiba.
+
+---
+
+## 🔍 Penjelasan Kode
+
+### Struktur Data
+c
+struct proc {
+    int no, at, bt, rt, ct, tat, wt;
+};
+`
+
+* `no`: Nomor proses
+* `at`: Arrival Time (waktu kedatangan)
+* `bt`: Burst Time (waktu eksekusi awal)
+* `rt`: Remaining Time (waktu sisa eksekusi)
+* `ct`: Completion Time (waktu selesai)
+* `tat`: Turnaround Time (`CT - AT`)
+* `wt`: Waiting Time (`TAT - BT`)
+
+### Alur Eksekusi
+
+1. **Input Data**: Jumlah proses dan data masing-masing proses.
+2. **Sorting**: Berdasarkan `arrival time` (AT) dengan bubble sort.
+3. **SRTF Execution Loop**:
+
+   * Memilih proses dengan `remaining time` terkecil yang telah tiba (`at <= time`).
+   * Mengurangi `remaining time` tiap satuan waktu (`rt--`).
+   * Ketika proses selesai (`rt == 0`), dicatat `ct`, `tat`, dan `wt`.
+
+---
+
+## 📈 Hasil Output (Sesuai Gambar)
+
+| Process | AT | BT | CT | TAT | WT |
+| ------- | -- | -- | -- | --- | -- |
+| P1      | 0  | 6  | 6  | 6   | 0  |
+| P4      | 5  | 3  | 9  | 4   | 1  |
+| P3      | 4  | 7  | 16 | 12  | 5  |
+| P2      | 2  | 8  | 24 | 22  | 14 |
+
+---
+
+## 🧮 Gantt Chart
+
+Berikut adalah Gantt chart berdasarkan waktu eksekusi proses:
+
+
+| P1 | P1 | P1 | P1 | P1 | P1 | P4 | P4 | P4 | P3 | P3 | P3 | P3 | P3 | P3 | P3 | P2 | P2 | P2 | P2 | P2 | P2 | P2 | P2 |
+  0    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24
+
+
+---
+
+## ✅ Kelebihan dan ❌ Kekurangan
+
+| Aspek              | Kelebihan ✅                                                                      | Kekurangan ❌                                                                              |
+| ------------------ | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Akurasi            | Menampilkan hasil `CT`, `TAT`, dan `WT` dengan benar                             | Tidak menyimpan urutan eksekusi secara eksplisit                                          |
+| Algoritma          | Menggunakan pendekatan preemptive SRTF yang optimal untuk waktu tunggu rata-rata | Kompleksitas tinggi saat proses banyak karena pencarian proses aktif dilakukan tiap detik |
+| Input              | Interaktif, mudah digunakan                                                      | Tidak mendukung input otomatis (misalnya dari file)                                       |
+| Efisiensi Eksekusi | Menangani proses secara dinamis saat proses datang                               | Penggunaan waktu (`for time = 0; ...`) bisa lebih efisien dengan event-based loop         |
+| Visualisasi        | Output tabel cukup jelas                                                         | Tidak ada visualisasi Gantt chart otomatis                                                |
+
+---
+
+## 📊 Rata-Rata
+
+* **Average Turnaround Time**: 11.00
+* **Average Waiting Time**: 5.00
+
+---
+
