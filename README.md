@@ -1,7 +1,7 @@
 # Study System Operation Repository
 
 ## Informasi
-- **Nama**: Syahrul Ardi Prasetiyo 
+- **Nama**: Syahrul Ardi Prasetiyo
 - **Kelas**: 1 D3 IT B, Semester 2  
 - **NRP**: 3124500035
 - **Dosen Pengajar:** Dr Ferry Astika Saputra ST, M.Sc
