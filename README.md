@@ -1,16 +1,16 @@
-# 📘 Study System Operation Repository
+# Study System Operation Repository
 
-## 📌 Informasi
-- **Nama**: Sulistyo Fajar Pratama  
+## Informasi
+- **Nama**: Syahrul Ardi Prasetiyo 
 - **Kelas**: 1 D3 IT B, Semester 2  
-- **NRP**: 3124500037
+- **NRP**: 3124500035
 - **Dosen Pengajar:** Dr Ferry Astika Saputra ST, M.Sc
 
-## 📖 Deskripsi
+## Deskripsi
 Repositori ini dibuat sebagai bagian dari studi tentang sistem operasi. Berisi berbagai materi, kode, dan eksperimen yang berkaitan dengan konsep serta implementasi sistem operasi.
 
-## 📜 Lisensi
+## Lisensi
 Proyek ini dilisensikan di bawah **BSD 3-Clause License**. Silakan lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
 
 ---
-📌 *Tetap semangat belajar dan eksplorasi dunia sistem operasi!* 🚀
+*Tetap semangat belajar dan eksplorasi dunia sistem operasi!*
